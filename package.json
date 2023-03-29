@@ -1,0 +1,15 @@
+{
+  "name": "dailylua",
+  "version": "1.0.0",
+  "description": "One Challange A Day",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "GalacticApricot",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.0",
+    "electron": "^23.2.0"
+  }
+}

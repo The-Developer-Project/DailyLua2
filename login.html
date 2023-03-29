@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' blob: data:;">
+    <meta
+        http-equiv="X-Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; script-src 'unsafe-inline' https://dailylua.galacticapricot.repl.co"
+    />
+    <link rel="stylesheet" href="./login.css"/>
+    <title>Enter a Fancy Name</title>
+  </head>
+  <body>
+    <div>
+      <h1>Enter Your Fancy Name</h1>
+      <form>
+        <input type="text" id="name" placeholder="Your Fancy Name Here" />
+        <center>
+        <button type="submit" id="submit">Submit</button>
+        </center>
+      </form>
+    </div>
+
+    <script src="./login2.js"></script>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
