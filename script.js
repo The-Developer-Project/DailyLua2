@@ -5,7 +5,7 @@ console.log('started1')
 
 submitBtn.addEventListener('click', async () => {
   const text = document.getElementById('text').value;
-  const response = await fetch('https://dailylua.galacticapricot.repl.co/check_text', {
+  const response = await fetch('url', {
     method: 'POST',
     body: JSON.stringify({ text }),
     headers: {
